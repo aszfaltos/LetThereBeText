@@ -5,6 +5,8 @@ description = "This project means to explore the possibilities of Denoising Dist
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "datasets>=3.5.0",
+    "h5py>=3.13.0",
     "hf-xet>=1.0.3",
     "huggingface-hub>=0.30.2",
     "ipykernel>=6.29.5",
